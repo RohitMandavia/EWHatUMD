@@ -40,15 +40,11 @@ body {
     right: 0;
     background: #fff;
     transition: 1s;
-    opacity: 0;
-    filter: blur(10px);
-    transform: scale(1.5s);
-}
-.container .box:hover .details {
     opacity: 1;
     filter: blur(0px);
-    transform: scale(1s);
+    transform: scale(1.5s);
 }
+
 .container .box .details .content {
     position: absolute;
     top: 50%;
